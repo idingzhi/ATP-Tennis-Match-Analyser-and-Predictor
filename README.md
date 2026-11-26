@@ -11,8 +11,8 @@ The match data comes from the TennisMyLife database on GitHub: https://github.co
 
 ## Files
 
-- Tennis_Dashboards_2015-2026.xlsx is the main workbook. Three sheets are visible: Match Analyser, Match Predictor and Model Results. The sheets that do the calculations are hidden. Right-click any tab and choose Unhide to look at them.
-- Tennis_Data_2015-2026.xlsx is the raw match data (33,379 matches).
+- ATP Tennis Match Analyser and Predictor.xlsx is the main workbook. Three sheets are visible: Match Analyser, Match Predictor and Model Results. The sheets that do the calculations are hidden. Right-click any tab and choose Unhide to look at them.
+- ATP_Match_Data_2015-2026.xlsx is the raw match data (33,379 matches).
 
 Open the workbook in desktop Excel and click Enable Editing. The yellow cells are dropdowns.
 
