@@ -5,6 +5,10 @@ I built this in Excel to look at ATP tour match data and try to answer two quest
 1. What separates players who win matches from players who lose them?
 2. Can a simple model predict who will win?
 
+## Data source
+
+The match data comes from the TennisMyLife database on GitHub: https://github.com/Tennismylife/TML-Database. I used its yearly ATP match files for 2015 to 2026. The raw file in this repository is that data after the small clean-up described below.
+
 ## Files
 
 - Tennis_Dashboards_2015-2026.xlsx is the main workbook. Three sheets are visible: Match Analyser, Match Predictor and Model Results. The sheets that do the calculations are hidden. Right-click any tab and choose Unhide to look at them.
@@ -43,3 +47,4 @@ Log loss scores the probabilities, not just the picks, and lower is better. The 
 - The results show links, not causes. Serve statistics from a match describe how it was won, and are not known beforehand.
 - The model knows nothing about injuries, fatigue or personal history between players beyond what ranking and form capture.
 - I left out 150 matches with no surface or a carpet surface, and 3 with an unusable round label.
+
